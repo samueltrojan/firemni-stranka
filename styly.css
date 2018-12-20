@@ -1,0 +1,61 @@
+body {
+    font-family: 'Vollkorn SC', serif;
+    margin: 0;
+}
+#logo {
+    width: 300px;
+   display:inline-block;
+}
+#menu {
+    background-color: green;
+}
+.polozka {
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.polozka:hover {
+    background-color: darkgreen;
+}
+#hlavicka {
+}
+.center {
+    max-width: 1000px;
+    margin: auto;
+}
+#obsah {
+    padding: 10px;
+}
+h1 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+p {
+    margin: 20px 10px;
+}
+.produkt {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px;
+}
+.produkt:hover {
+    box-shadow: 0 0 5px #6f6f6f;
+}
+.nazev {
+    font-size: 22px;
+}
+.produkt-obrazek {
+    height: 200px;
+
+}
+
+.produkt-obrazek img {
+    max-width: 200px;
+    max-height: 200px;
+}
